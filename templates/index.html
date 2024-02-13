@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drowsy Boi</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Drowsy Boi</h1>
+        <div class="video-container mt-3">
+            <img id="video-feed" src="{{ url_for('video_feed') }}" alt="Video Feed">
+        </div>
+        <div class="mt-3">
+            <button id="reset-button" class="btn btn-primary">Reset Counter</button>
+            <p id="counter" class="mt-3">Counter: <span id="counter-value">0</span></p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

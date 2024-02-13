@@ -1,0 +1,18 @@
+
+.video-container {
+    width: 600px;
+    height: 480px;
+    overflow: hidden;
+}
+
+#video-feed {
+    width: 100%;
+}
+
+#reset-button {
+    margin-top: 20px;
+}
+
+#counter {
+    font-size: 20px;
+}
