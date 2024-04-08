@@ -9,6 +9,7 @@ import random
 app = Flask(__name__)
 
 # Load YOLOv5 model
+torch.hub._validate_not_a_forked_repo=lambda a,b,c: True
 model = torch.hub.load('ultralytics/yolov5', 'custom', path='yolov5/runs/train/exp9/weights/last.pt', force_reload=True)
 
 # Initialize video capture
