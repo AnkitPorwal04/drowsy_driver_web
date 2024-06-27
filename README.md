@@ -10,7 +10,7 @@
 
 **2. Divyanshu Mishra [210305124090]**
 
-**3. Mayank Patidar [210305124102]**
+**3. Shivam Patel [210305124101]**
 
-**4. Shivam Patel [210305124101]**
+**4. Mayank Patidar [210305124102]**
 
