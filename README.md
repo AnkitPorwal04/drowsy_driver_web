@@ -1,4 +1,4 @@
-# drowsy_driver_web
+# SafeDrive: Drowsiness Detection Web
 
 **"Parul University ASMP Project Repo"**
 
