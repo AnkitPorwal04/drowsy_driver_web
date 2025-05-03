@@ -1,18 +1,38 @@
+body{
+    background-color: rgba(197, 197, 197, 0.926);
+}
+
+.mt-5{
+    text-align: center;
+    font-style: italic;
+}
+
+.background{
+    text-align: center;
+    background-image:  url("e.jpg");
+}
 
 .video-container {
     width: 600px;
     height: 480px;
     overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
 }
 
 #video-feed {
     width: 100%;
+    border: solid 2px black;
+    border-radius: 10px;
 }
 
 #reset-button {
     margin-top: 20px;
+    background-color: blue;
 }
 
 #counter {
     font-size: 20px;
+    font-weight: bold;
 }

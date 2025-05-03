@@ -33,7 +33,7 @@ def detect_drowsiness(frame):
         dconf = results.xywh[0][0][4]
         dclass = results.xywh[0][0][5]
 
-        if dconf.item() > 0.55 and dclass.item() == 1.0:
+        if dconf.item() > 0.75 and dclass.item() == 1.0:
             filechoice = random.choice([1, 2])
             p = vlc.MediaPlayer(f"file:///{filechoice}.wav")
             p.play()
